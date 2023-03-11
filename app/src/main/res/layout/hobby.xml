@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bgcolor4"
     android:orientation="vertical">
 
 
@@ -10,62 +11,74 @@
         android:layout_height="wrap_content"
         android:text="HOBBY"
         android:textSize="30dp"
+        android:textStyle="bold"
         android:layout_gravity="center"/>
     <RadioButton
+        android:id="@+id/travelling"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Travelling"
         android:textSize="25dp"/>
 
     <RadioButton
+        android:id="@+id/singing"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Singing"
         android:textSize="25dp"/>
 
     <RadioButton
+        android:id="@+id/reading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Reading"
         android:textSize="25dp"/>
 
     <RadioButton
+        android:id="@+id/diary"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Diary Writing"
         android:textSize="25dp"/>
 
     <RadioButton
+        android:id="@+id/fit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Fitness"
         android:textSize="25dp"/>
 
     <RadioButton
+        android:id="@+id/draw"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Drawing"
         android:textSize="25dp"/>
     <RadioButton
+        android:id="@+id/athletics"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Athletics"
         android:textSize="25dp"/>
     <RadioButton
+        android:id="@+id/RND"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Research and  Development"
         android:textSize="25dp"/>
     <RadioButton
+        android:id="@+id/analysis"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Analysis"
         android:textSize="25dp"/>
     <Button
+        android:id="@+id/btnnext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Next"/>
+        android:text="Next"
+        android:textSize="15dp"/>
 
 
 

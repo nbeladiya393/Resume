@@ -1,169 +1,227 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:gravity="">
+
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/bgcolor4"
         android:gravity="center"
-        android:layout_marginLeft="100dp"
-        android:layout_gravity="center">
+        android:orientation="vertical">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Education"
-            android:textSize="40dp"/>
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
         <RadioButton
+            android:id="@+id/ten"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="10th"
-            android:textSize="25dp"/>
+            android:textSize="25dp" />
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
-        <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:hint="Percentage" />
 
-        <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:hint="year" />
-        <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:hint="school" />
+            <EditText
+                android:id="@+id/per1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Percentage"
+                android:layout_marginLeft="10dp"/>
+
+            <EditText
+                android:id="@+id/year1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="year"
+                android:layout_marginLeft="10dp"/>
+
+            <EditText
+                android:id="@+id/school1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="school"
+                android:layout_marginLeft="10dp"/>
         </LinearLayout>
 
         <RadioButton
+            android:id="@+id/twe"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="12th"
-            android:textSize="25dp"/>
+            android:textSize="25dp" />
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
-        <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="Percentage" />
 
-        <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:hint="year" />
-        <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:hint="school" />
+            <EditText
+                android:id="@+id/per2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Percentage"
+                android:layout_marginLeft="10dp"/>
+
+            <EditText
+                android:id="@+id/year2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="year"
+                android:layout_marginLeft="10dp"/>
+
+            <EditText
+                android:id="@+id/school2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="school"
+                android:layout_marginLeft="10dp"/>
 
         </LinearLayout>
 
         <RadioButton
+            android:id="@+id/bachelors"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Bachelors"
-            android:textSize="25dp"/>
+            android:textSize="25dp" />
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
-            <EditText
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:hint="Percentage" />
 
             <EditText
+                android:id="@+id/per3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:hint="year" />
+                android:hint="Percentage"
+                android:layout_marginLeft="10dp"/>
+
             <EditText
+                android:id="@+id/year3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:hint="Field" />
+                android:hint="year"
+                android:layout_marginLeft="10dp"/>
+
             <EditText
+                android:id="@+id/field1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:hint="University" />
+                android:hint="Field"
+                android:layout_marginLeft="10dp"/>
+
+            <EditText
+                android:id="@+id/university1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="University"
+                android:layout_marginLeft="10dp"/>
 
 
         </LinearLayout>
+
         <RadioButton
+            android:id="@+id/masters"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Masters"
-            android:textSize="25dp"/>
+            android:textSize="25dp" />
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
-            <EditText
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:hint="Percentage" />
 
             <EditText
+                android:id="@+id/per4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:hint="year" />
+                android:hint="Percentage"
+                android:layout_marginLeft="10dp"/>
+
             <EditText
+                android:id="@+id/year4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:hint="Field" />
+                android:hint="year"
+                android:layout_marginLeft="10dp"/>
+
             <EditText
+                android:id="@+id/field2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:hint="University" />
+                android:hint="Field"
+                android:layout_marginLeft="10dp"/>
+
+            <EditText
+                android:id="@+id/university2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="University"
+                android:layout_marginLeft="10dp"/>
 
 
         </LinearLayout>
 
         <RadioButton
+            android:id="@+id/professional"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Phd."
-            android:textSize="25dp"/>
+            android:textSize="25dp" />
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
-            <EditText
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:hint="Percentage" />
 
             <EditText
+                android:id="@+id/per5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:hint="year" />
+                android:hint="Percentage"
+                android:layout_marginLeft="10dp"/>
+
             <EditText
+                android:id="@+id/year5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:hint="Field" />
+                android:hint="year"
+                android:layout_marginLeft="10dp"/>
+
             <EditText
+                android:id="@+id/field3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:hint="University" />
+                android:hint="Field"
+                android:layout_marginLeft="10dp"/>
+
+            <EditText
+                android:id="@+id/university3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="University"
+                android:layout_marginLeft="10dp"/>
 
 
         </LinearLayout>
-
 
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Next"/>
-
-
-
-
-
+            android:text="Next" />
 
 
     </LinearLayout>
@@ -182,4 +240,3 @@
 </LinearLayout>
 
 
-    </LinearLayout>

@@ -1,58 +1,126 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
 
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:orientation="vertical"
+    android:background="@drawable/bgcolor4"
+        tools:context=".MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="center">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="WORK HISTORY"
+                android:textSize="40dp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="center">
+
+            <EditText
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Job title 1"
+                android:layout_margin="10dp"
+                android:background="@null"
+                android:textSize="20dp"/>
+        </LinearLayout>
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:gravity="center"
-        android:layout_marginLeft="60dp"
         android:layout_gravity="center">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="WORK HISTORY"
-            android:textSize="40dp"/>
         <EditText
-            android:layout_width="wrap_content"
+
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Job title 1"
-            android:textSize="20dp"
-            android:layout_weight="1"/>
+            android:hint="Description 1"
+            android:layout_margin="10dp"
+            android:background="@null"
+            android:textSize="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center">
+
         <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:hint="description 1"
-            android:textSize="20dp"
-            android:layout_weight="1"/>
-        <EditText
-            android:layout_width="wrap_content"
+
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Job title 2"
-            android:textSize="20dp"
-            android:layout_weight="1"/>
+            android:layout_margin="10dp"
+            android:background="@null"
+            android:textSize="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center">
+
         <EditText
-            android:layout_width="wrap_content"
+
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Description 2"
-            android:textSize="20dp"
-            android:layout_weight="1"/>
+            android:layout_margin="10dp"
+            android:background="@null"
+            android:textSize="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center">
+
         <EditText
-            android:layout_width="wrap_content"
+            android:id="@+id/name"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Experience (years)"
-            android:textSize="20dp"
-            android:layout_weight="1"/>
+            android:hint="Total Experience(Years)"
+            android:layout_margin="10dp"
+            android:background="@null"
+            android:textSize="20dp"/>
+    </LinearLayout>
 
 
         <Button
+            android:id="@+id/btnnext"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Next"/>
+            android:text="Next"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bt"
+            android:layout_gravity="center"/>
 
 
 
@@ -62,18 +130,6 @@
 
     </LinearLayout>
 
-
-
-
-
-
-
-
-
-
-
-
-</LinearLayout>
 
 
 
