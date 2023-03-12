@@ -33,7 +33,7 @@
         android:layout_gravity="center">
 
         <EditText
-
+            android:id="@+id/con1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Contact  1"
@@ -50,7 +50,7 @@
         android:layout_gravity="center">
 
         <EditText
-
+android:id="@+id/con2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Contact 2"
@@ -67,7 +67,7 @@
         android:layout_gravity="center">
 
         <EditText
-
+   android:id="@+id/work1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Work Phone "

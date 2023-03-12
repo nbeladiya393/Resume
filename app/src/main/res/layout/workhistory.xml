@@ -35,7 +35,7 @@
             android:layout_gravity="center">
 
             <EditText
-
+android:id="@+id/job1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Job title 1"
@@ -52,7 +52,7 @@
         android:layout_gravity="center">
 
         <EditText
-
+android:id="@+id/des1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Description 1"
@@ -69,7 +69,7 @@
         android:layout_gravity="center">
 
         <EditText
-
+android:id="@+id/job2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Job title 2"
@@ -86,7 +86,7 @@
         android:layout_gravity="center">
 
         <EditText
-
+android:id="@+id/des2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Description 2"
@@ -103,7 +103,8 @@
         android:layout_gravity="center">
 
         <EditText
-            android:id="@+id/name"
+
+            android:id="@+id/experience"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Total Experience(Years)"
