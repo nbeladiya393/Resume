@@ -8,19 +8,23 @@
         <entry key="..\:/Resume/app/src/main/res/drawable/bt.xml" value="0.2265" />
         <entry key="..\:/Resume/app/src/main/res/drawable/btn.xml" value="0.225" />
         <entry key="..\:/Resume/app/src/main/res/drawable/button.xml" value="0.225" />
+        <entry key="..\:/Resume/app/src/main/res/drawable/img.xml" value="0.245" />
+        <entry key="..\:/Resume/app/src/main/res/drawable/splachscreen.xml" value="0.245" />
         <entry key="..\:/Resume/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Resume/app/src/main/res/layout/bg.xml" value="0.20512820512820512" />
         <entry key="..\:/Resume/app/src/main/res/layout/biodata.xml" value="0.22826086956521738" />
         <entry key="..\:/Resume/app/src/main/res/layout/btn.xml" value="0.20512820512820512" />
         <entry key="..\:/Resume/app/src/main/res/layout/button.xml" value="0.1721311475409836" />
         <entry key="..\:/Resume/app/src/main/res/layout/contact.xml" value="0.20427350427350427" />
-        <entry key="..\:/Resume/app/src/main/res/layout/education.xml" value="0.22826086956521738" />
+        <entry key="..\:/Resume/app/src/main/res/layout/education.xml" value="0.264" />
         <entry key="..\:/Resume/app/src/main/res/layout/education1.xml" value="0.22826086956521738" />
         <entry key="..\:/Resume/app/src/main/res/layout/hobby.xml" value="0.22826086956521738" />
         <entry key="..\:/Resume/app/src/main/res/layout/s_kills.xml" value="0.1721311475409836" />
         <entry key="..\:/Resume/app/src/main/res/layout/skill_s.xml" value="0.22826086956521738" />
         <entry key="..\:/Resume/app/src/main/res/layout/skills.xml" value="0.264" />
+        <entry key="..\:/Resume/app/src/main/res/layout/splashscreen.xml" value="0.25" />
         <entry key="..\:/Resume/app/src/main/res/layout/template1.xml" value="0.22826086956521738" />
+        <entry key="..\:/Resume/app/src/main/res/layout/template2.xml" value="0.25" />
         <entry key="..\:/Resume/app/src/main/res/layout/workhistory.xml" value="0.22826086956521738" />
       </map>
     </option>
